@@ -1,3 +1,4 @@
+<?php $home_index = get_template_directory_uri();?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0026)http://www.brasilevoli.it/ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -11,10 +12,10 @@
 	<meta name="keyphrase" content="">
 	<link rel="STYLESHEET" 
 		  type="text/css" 
-		  href="./assets/css/Stile.css">
+		  href="<?=$home_index?>/assets/css/Stile.css">
 	<script type="text/javascript" 
 	async="" 
-	src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/ga.js.transferir">
+	src="<?=$home_index?>/assets/js/ga.js.transferir">
 	</script>
 	
 	<script type="text/javascript">
@@ -36,10 +37,10 @@
 }
 </style>
 <script 
-	src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/jquery.min.js.transferir" 
+	src="<?=$home_index?>/assets/js/jquery.min.js.transferir" 
 	type="text/javascript">
 </script>
-<script src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/fadeslideshow.js.transferir" 
+<script src="<?=$home_index?>/assets/js/fadeslideshow.js.transferir" 
 		type="text/javascript">
 </script>
 <script type="text/javascript">
