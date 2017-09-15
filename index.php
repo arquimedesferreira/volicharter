@@ -105,9 +105,9 @@ var mygallery=new fadeSlideShow({
 		<img src="<?=$home_index?>/assets/images/logo.png"><br>
 		
 		<div class="offerta">
-		<a href="http://www.brasilevoli.it/default.asp?offerta=S"><div class="titolo_offerta">OFFERTISSIMA milano fortaleza</div></a>
-		<a href="http://www.brasilevoli.it/default.asp?offerta=S"><div class="sottotitolo_offerta">volo AIR ITALY</div></a>
-		<a href="http://www.brasilevoli.it/default.asp?offerta=S"><div class="titolo_link">partenza 10 o 17 luglio eur 670 andata e ritorno</div></a>
+		<a href="#"><div class="titolo_offerta">OFFERTISSIMA milano fortaleza</div></a>
+		<a href="#"><div class="sottotitolo_offerta">volo AIR ITALY</div></a>
+		<a href="#"><div class="titolo_link">partenza 10 o 17 luglio eur 670 andata e ritorno</div></a>
 		</div>
 		
 		</div>
@@ -115,60 +115,67 @@ var mygallery=new fadeSlideShow({
 	
 	<div id="main" class="autoclr">
 		<div id="sottomenu">
-		  <a href="http://www.brasilevoli.it/default.asp">
+		  <a href="#">
 		  <img src="<?=$home_index?>/assets/images/homepage_on.gif"></a> 
-		  <a href="http://www.brasilevoli.it/mediagallery.asp">
+		  <a href="#">
 		  <img src="<?=$home_index?>/assets/images/scopri_off.gif"></a>
 		</div>
 		<div id="bannerSx">
 			<div id="fadeshow1" style="position: relative; visibility: visible; background: white; overflow: hidden; width: 728px; height: 286px;"><div class="gallerylayer" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: white; z-index: 1000; opacity: 0.989928;"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner1.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner2.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner3.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner4.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner5.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner6.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner7.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner8.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner9.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner10.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner11.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner12.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner13.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner14.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner15.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner16.jpg" style="border-width: 0px; display: block; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner17.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner18.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner19.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner20.jpg" style="border-width: 0px; display: none;">
-</div><div class="gallerylayer" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: white; z-index: 999; opacity: 1;"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner1.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner2.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner3.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner4.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner5.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner6.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner7.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner8.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner9.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner10.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner11.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner12.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner13.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner14.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner15.jpg" style="border-width: 0px; display: block; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner16.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner17.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner18.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner19.jpg" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner20.jpg" style="border-width: 0px; display: none;">
-</div><img src="<?=$home_index?>/assets/images/loading.gif" style="position: absolute; left: 337px; top: 88px; display: none;"></div>	
+<img src="<?=$home_index?>/assets/images/banner2.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner3.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner4.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner5.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner6.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner7.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner8.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner9.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner10.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner11.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner12.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner13.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner14.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner15.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner16.jpg" style="border-width: 0px; display: block; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner17.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner18.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner19.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner20.jpg" style="border-width: 0px; display: none;">
+</div>
+<div class="gallerylayer" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: white; z-index: 999; opacity: 1;"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner1.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner2.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner3.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner4.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner5.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner6.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner7.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner8.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner9.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner10.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner11.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner12.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner13.jpg" style="border-width: 0px; display: none; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner14.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner15.jpg" style="border-width: 0px; display: block; margin-left: 0px; margin-top: 0px;">
+<img src="<?=$home_index?>/assets/images/banner16.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner17.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner18.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner19.jpg" style="border-width: 0px; display: none;">
+<img src="<?=$home_index?>/assets/images/banner20.jpg" style="border-width: 0px; display: none;">
+</div>
+	<img src="<?=$home_index?>/assets/images/loading.gif" 
+		style="position: absolute; left: 337px; top: 88px; display: none;"></div>	
 		</div>
 		<div id="bannerDx">
 			<div class="testomax_bianco">telefoni: <br>
-				0735431134 | 0735783264</div><div class="testo_bianco">dalle 10.00 alle 13.45 dalle 16.00 alle 20.45</div>	
+				BR +55 85 3103 2015  
+			</div>
+			<div class="testo_bianco">dalle 10.00 alle 13.45 dalle 16.00 alle 20.45</div>	
 			<div class="testomax_bianco">cellulari: <span class="style1">dalle 09.30 alle 24.00</span><br>
-				3921988658 | 3383787775</div>
-			<div class="inner_dx"><a class="bigW" href="mailto:volibrasile@gmail.com">volibrasile@gmail.com</a></div>
+				BR + 55 85 99817 9002 <br> IT +39 02 4070 6898</div>
+			<div class="inner_dx"><a class="bigW" href="mailto:volibrasile@gmail.com">info@volicharter.org</a> <br>
+					<a class="bigW" href="mailto:volibrasile@gmail.com">info@volicharter.org</a>
+			</div>
 			<div class="inner_dx2">
 			<a href="https://www.facebook.com/#!/profile.php?id=100001703890263" 
 			title="Facebook" target="_blank"><img alt="Collegamento a Facebook" 
@@ -181,7 +188,7 @@ var mygallery=new fadeSlideShow({
 			<script type="text/javascript" 
 				src="<?=$home_index?>/assets/js/skypeCheck.js.transferir"></script>
 			<a href="skype:volibrasile?call">
-				<img src="<?=$home_index?>/assets/iamges/skype.png" style="border: none;" width="124" height="52" alt="Skype Me�!"></a>			
+				<img src="<?=$home_index?>/assets/images/skype.png" style="border: none;" width="124" height="52" alt="Skype Me�!"></a>			
 			</div>
 		</div>		
 		
@@ -211,11 +218,14 @@ var mygallery=new fadeSlideShow({
 					    	<td class="formDx" rowspan="3">
 					    	<input class="EditButton" type="submit" value="avvia ricerca" name="Button_login"></td>
 					    	<td rowspan="3">
-							<div id="fadeshow2" style="position: relative; visibility: visible; background: white; overflow: hidden; width: 200px; height: 90px;"><div class="gallerylayer" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: white; z-index: 999; opacity: 1;"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/logo2.gif" style="border-width: 0px; display: none;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/logo3.gif" style="border-width: 0px; display: block; margin-left: 0px; margin-top: 0px;">
-</div><div class="gallerylayer" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: white; z-index: 1000; opacity: 0.843702;"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/logo2.gif" style="border-width: 0px; display: block; margin-left: 0px; margin-top: 0px;">
-<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/logo3.gif" style="border-width: 0px; display: none;">
-</div><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/loading.gif" style="position: absolute; left: 73px; top: -10px; display: none;"></div>					    	
+							<div id="fadeshow2" style="position: relative; visibility: visible; background: white; overflow: hidden; width: 200px; height: 90px;"><div class="gallerylayer" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: white; z-index: 999; opacity: 1;"><img src="<?=$home_index?>/assets/images/logo2.gif" style="border-width: 0px; display: none;">
+						<img src="<?=$home_index?>/assets/images/logo3.gif" style="border-width: 0px; display: block; margin-left: 0px; margin-top: 0px;">
+						</div>
+						<div class="gallerylayer" 
+								style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: white; z-index: 1000; opacity: 0.843702;"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/logo2.gif" style="border-width: 0px; display: block; margin-left: 0px; margin-top: 0px;">
+								<img src="<?=$home_index?>/assets/images/logo3.gif" style="border-width: 0px; display: none;">
+						</div>
+						<img src="<?=$home_index?>/assets/images/loading.gif" style="position: absolute; left: 73px; top: -10px; display: none;"></div>					    	
 					    	</td>
 					    </tr>
 					    <tr>
@@ -266,7 +276,7 @@ var mygallery=new fadeSlideShow({
 			<br><span class="testomini">� 2011 All rights reserved <strong>BRASILE VOLI</strong><br>
 			ORGANIZZAZIONE: ASTRO VIAGGI SRL via piemonte,25 SAN BENEDETTO DEL TRONTO - p.iva 01893770444 - <strong>codice licenza IATA 3827612</strong> </span></div>
 				<div id="mainContentSxSx">
-				<img alt="" height="64" src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/iata.png" width="95" class="iata"></div>
+				<img alt="" height="64" src="<?=$home_index?>/assets/images/iata.png" width="95" class="iata"></div>
 			<div id="mainContentDxDx">
 				<a href="https://www.facebook.com/#!/profile.php?id=100001703890263" class="social" title="Facebook" target="_blank"><img alt="facebook" src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/facebook.png" class="dxdx"></a></div>			
 			    
