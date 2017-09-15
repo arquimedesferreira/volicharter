@@ -81,8 +81,8 @@ var mygallery=new fadeSlideShow({
 	wrapperid: "fadeshow2", //ID of blank DIV on page to house Slideshow
 	dimensions: [200, 90], //width/height of gallery in pixels. Should reflect dimensions of largest image
 	imagearray: [
-		["/images/logo2.gif"],
-		["/images/logo3.gif"]
+		["<?=$home_index?>/assets/images/logo2.gif"],
+		["<?=$home_index?>/assets/images/logo3.gif"]
 	],
 	displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
 	persist: false, //remember last viewed slide and recall within same session?
@@ -102,7 +102,7 @@ var mygallery=new fadeSlideShow({
     
     <div id="top">	
 		<div id="topContentSx">
-		<img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/logo.png"><br>
+		<img src="<?=$home_index?>/assets/images/logo.png"><br>
 		
 		<div class="offerta">
 		<a href="http://www.brasilevoli.it/default.asp?offerta=S"><div class="titolo_offerta">OFFERTISSIMA milano fortaleza</div></a>
@@ -115,8 +115,10 @@ var mygallery=new fadeSlideShow({
 	
 	<div id="main" class="autoclr">
 		<div id="sottomenu">
-		  <a href="http://www.brasilevoli.it/default.asp"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/homepage_on.gif"></a> 
-		  <a href="http://www.brasilevoli.it/mediagallery.asp"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/scopri_off.gif"></a>
+		  <a href="http://www.brasilevoli.it/default.asp">
+		  <img src="<?=$home_index?>/assets/images/homepage_on.gif"></a> 
+		  <a href="http://www.brasilevoli.it/mediagallery.asp">
+		  <img src="<?=$home_index?>/assets/images/scopri_off.gif"></a>
 		</div>
 		<div id="bannerSx">
 			<div id="fadeshow1" style="position: relative; visibility: visible; background: white; overflow: hidden; width: 728px; height: 286px;"><div class="gallerylayer" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background: white; z-index: 1000; opacity: 0.989928;"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner1.jpg" style="border-width: 0px; display: none;">
@@ -159,7 +161,7 @@ var mygallery=new fadeSlideShow({
 <img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner18.jpg" style="border-width: 0px; display: none;">
 <img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner19.jpg" style="border-width: 0px; display: none;">
 <img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/banner20.jpg" style="border-width: 0px; display: none;">
-</div><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/loading.gif" style="position: absolute; left: 337px; top: 88px; display: none;"></div>	
+</div><img src="<?=$home_index?>/assets/images/loading.gif" style="position: absolute; left: 337px; top: 88px; display: none;"></div>	
 		</div>
 		<div id="bannerDx">
 			<div class="testomax_bianco">telefoni: <br>
@@ -168,14 +170,18 @@ var mygallery=new fadeSlideShow({
 				3921988658 | 3383787775</div>
 			<div class="inner_dx"><a class="bigW" href="mailto:volibrasile@gmail.com">volibrasile@gmail.com</a></div>
 			<div class="inner_dx2">
-			<a href="https://www.facebook.com/#!/profile.php?id=100001703890263" title="Facebook" target="_blank"><img alt="Collegamento a Facebook" src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/seguici_facebook.png"></a></div>
+			<a href="https://www.facebook.com/#!/profile.php?id=100001703890263" 
+			title="Facebook" target="_blank"><img alt="Collegamento a Facebook" 
+			src="<?=$home_index?>/assets/images/seguici_facebook.png"></a></div>
 			<div class="inner_dx2">
 			<!--
 			Skype 'Skype Me�!' button
 			http://www.skype.com/go/skypebuttons
 			-->
-			<script type="text/javascript" src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/skypeCheck.js.transferir"></script>
-			<a href="skype:volibrasile?call"><img src="./Brasile Voli Tour Operator - Gli Specialisti del Brasile_files/skype.png" style="border: none;" width="124" height="52" alt="Skype Me�!"></a>			
+			<script type="text/javascript" 
+				src="<?=$home_index?>/assets/js/skypeCheck.js.transferir"></script>
+			<a href="skype:volibrasile?call">
+				<img src="<?=$home_index?>/assets/iamges/skype.png" style="border: none;" width="124" height="52" alt="Skype Me�!"></a>			
 			</div>
 		</div>		
 		

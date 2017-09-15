@@ -16,7 +16,9 @@
 
 
 img.dx{ float:right; padding-top:4px;}
-img{ float:left; padding-top:8px; padding-bottom:8px; padding-right:16px}
+/*img{ float:left; padding-top:8px; padding-bottom:8px; padding-right:16px}*/
+
+img{ padding-top:8px; padding-bottom:8px; padding-right:16px}
 img.dxdx{float:right; padding-right:8px}
 img.no{ float:left; padding-top:0px; padding-bottom:8px; padding-right:16px}
 img.offerta{ float:left; padding-top:0px; padding-bottom:0px; padding-right:0px; padding-left:132px}
