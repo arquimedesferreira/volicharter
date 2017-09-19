@@ -23,3 +23,128 @@ Carrocel Imagens
 Cabecalho
 <div class="tagline-upper text-center text-heading text-shadow-white text-danger mt-5 d-none d-lg-block">Volicharter</div>
     <div class="tagline-upper text-center text-heading card-title d-lg-block text-danger " > Volicharter</div>
+
+
+
+    Arquivos outros 
+    <iframe 
+    id="rufous-sandbox" 
+    scrolling="no" 
+    frameborder="0" 
+    allowtransparency="true" 
+    allowfullscreen="true" 
+    style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" 
+    title="Twitter analytics iframe" 
+    src="<?= $home_index?>/img/saved_resource.html">
+</iframe>
+
+
+
+
+
+
+   Menu do site 
+
+
+
+
+        
+        <div class="container">
+            <div class="row">
+                <div id="header" class="col-md-24" role="heading">
+                    <div class="row">
+                                <!-- font resize -->
+                               
+                                <!-- FINE font resize -->
+                                <!--ricerca  <form class="navbar-form" role="search" action="http://www.consfortaleza.org.br/search">-->
+                               
+                                <!--fine ricerca--> 
+                                <!--lingue-->
+                                <div id="lingue">
+                                    <div class="row">
+                                        <!-- 
+                                        <ul><li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)">IT</a></li><li><a href="http://www.consfortaleza.org.br/pt/" title="Sito Portoguese (pt-PT)">PT</a></li></ul>
+                                        -->
+                                        <ul>
+                                            <li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--fine lingue--> 
+                       
+                    </div><!-- end row-->
+
+                    <div class="row">
+                        <div id="nav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">
+                            <div class="container-fluid"> 
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu">Menu 
+                                        <span class="sr-only"> Toggle navigation</span> 
+                                        <span class="glyphicon glyphicon-align-justify"></span> 
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse" id="main_menu">
+                                    
+
+                                    <?php 
+                                        //$args =array(
+                                        //    'theme_location'=>'header-menus',
+                                        //    'show_home'=>'Home',
+                                        //    'menu_class'  => 'menu');
+                                        //$args = array(
+                                        //                'depth'       => 0,
+                                        //                'sort_column' => 'menu_order, post_title',
+                                        //                'menu_class'  => 'menu',
+                                        //                'include'     => '',
+                                        //                'exclude'     => '',
+                                        //                'echo'        => true,
+                                        //                'show_home'   => true,
+                                        //                'link_before' => '',
+                                        //                'link_after'  => '',
+                                        //                'page_item'  => 'nav'
+                                        //            );
+                                         //wp_page_menu($args);
+                                         //wp_nav_menu($args);
+                                         //wp_nav_menu( array( 
+                                         //    'theme_location' => 'header-menu',
+                                         //    'container_class' => 'my_extra_menu_class',
+                                         //    'menu_class'=>'nav' ) );
+                                         wp_nav_menu(array(
+                                             'menu' => 'Home',
+                                             'container' => 'nav', 
+                                             'menu_class' => 'nav menu'
+                                             
+                                             )); 
+                                             //'container_class' => 'class-da-nav'
+                                    ?>
+
+                                   
+
+                                </div>
+                                <!-- fim menu header-->
+                            </div>
+                        </div>
+                    </div><!-- end row menu header-->
+
+                      <!-- inicio sub menu-->
+                            
+                               
+
+
+                                
+                                    
+                                   
+                                       
+                                       <?php
+                                         wp_nav_menu(array(
+                                             'menu' => 'SubMenu',
+                                             'container' => 'nav', 
+                                             'menu_class' => 'nav navbar-nav'  
+                                             )); 
+                                         ?>
+                                       
+                                       
+                                    
+                               
+                            
+                         <!-- fim sub menu-->

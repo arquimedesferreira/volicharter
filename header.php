@@ -3,8 +3,12 @@
 <html >
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        	<!--<base href="http://www.consfortaleza.org.br">--><base href="."/>
+        	<!--<base href="http://www.consfortaleza.org.br">-->
             <!-- xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-it" lang="it-it" -->
+    <base href="."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="trabalho realizado para Voli Charter empreendimentos">
+    <meta name="author" content="Arquitec">
 
 	<title> 
                 <?php carregaTitulo() ?>
@@ -29,6 +33,7 @@
 	<meta property="twitter:image" content="<?= $home ?>/img/recife_01.jpg">
 	<meta property="twitter:card" content="summary">
 
+    <!-- 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="shortcut icon" href="http://www.consrecife.esteri.it/Consolato_Recife/templates/sede/favicon.png" type="image/png">
          <link href="<?= $home ?>/assets/css/bootstrap_0.css" rel="stylesheet" type="text/css">
@@ -42,184 +47,183 @@
          <link href="<?= $home ?>/assets/css/style_base.css" rel="stylesheet" type="text/css">
          <link href="<?= $home ?>/assets/css/print.css" rel="stylesheet" type="text/css" media="print">
          <link href="<?= $home ?>/assets/css/venobox.css" rel="stylesheet" type="text/css">
+         -->
+
+
+         <!-- Add Boostrat Coffe-->
+         <link href="<?= $home ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+         <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- Custom styles for this template -->
+        <link href="<?= $home ?>/css/business-casual.css" rel="stylesheet">
+
     <?php wp_head();?>
 
     </head>
-    <body dir="ltr">
-        <div id="testata_esteri">
-            <div class="container"> 
-                <div id="logo_ministero" class="col-md-12 col-sm-8 col-xs-24" role="banner">
-                    <h1> 
-
-                        <p id="logo_farnesina">Farnesina</p>
-                        <p id="riga_1_farnesina">Ministero degli Affari Esteri<br>
-                            e della Cooperazione Internazionale</p>
-                    </h1>
-                </div>
-            </div>
+    <!--Inicio do body -->
+    <body >
+        
+        <div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block p-4">
+            <img class="img-responsive" src="<?= $home ?>/img/desenhando.svg" alt="">
+        </div>            
+        <div class="tagline-lower text-center text-expanded text-shadow-white text-uppercase  mb-5 d-none d-lg-block">
+          <strong class=".navbar-brand">  Rua Osvaldo Cruz 1, Sala 1007  | Edificio Beira Mar Trade Center | Fortaleza -CE, Meireles </strong>
         </div>
 
-        <div id="up">
-            <div class="container">     
-                <div class="flag">
-                    <img src="<?=$home?>/img/flag_flag.svg" alt="Italia Fortaleza">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+            <div class="container">
+                <a class="navbar-brand text-uppercase text-expanded text-primary font-weight-bold d-lg-none" 
+                href="#">Voli Charter</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                        data-target="#navbarResponsive" 
+                        aria-controls="navbarResponsive" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded " href="index.html"><strong>Home</strong> 
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        </li>
+                        <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded " href="servicos.html"><strong>Serviços</strong> </a>
+                        </li>
+                        <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded " href="contato.html"><strong>Contact</strong></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div id="header" class="col-md-24" role="heading">
-                    <div class="row">
-                        <div class="col-md-2 col-sm-3 stellone">
-                            <a href="http://www.consfortaleza.org.br" title="Consolato d&#39;Italia Fortaleza (Ceará)">
-                                <img src="<?= $home ?>/img/stellone_ministero_ok.svg" alt="Consolato d&#39;Italia Fortaleza (Ceará)">
-                            </a>
-                        </div>
-
-                        <div class="logo_sede" role="banner">
-                            <a href="http://www.consfortaleza.org.br" title="consolato_fortaleza">
-                            <!-- -->
-                                <p id="titolo_generico">Consulado Honorário da Italia</p>
-                                <p id="nome_sede" class="nome_iic">Fortaleza (Ceará/Piauí)</p> 
-                           
-                            </a>
-                        </div><!-- end logo_sede-->
-                        
-                        <div id="boxUtility">
-                            <div class="row">
-                                <!-- font resize -->
-                                <div id="resize_font">
-                                    <div class="row"> <a class="zoomin" href="javascript:  ridimTesto(1);" title="Aumenta la dimensione del testo"> 
-                                      <!-- <img src="/mae/images/ZoomIn.gif" alt="Aumenta la dimensione del testo"> --> 
-                                        </a> <a class="zoomout" href="javascript: ridimTesto(-1);" title="Riduci la dimensione del testo"> 
-                                        <!-- <img src="/mae/images/ZoomOut.gif" alt="Riduci la dimensione del testo"> --> 
-                                        </a> 
-                                    </div>
-                                </div>
-                                <!-- FINE font resize -->
-                                <!--ricerca  <form class="navbar-form" role="search" action="http://www.consfortaleza.org.br/search">-->
-                                <div id="ricerca_sito" role="search">
-                                    <!-- <form class="navbar-form" role="search" action="http://www.consfortaleza.org.br/search">-->
-                                    <form class="navbar-form" role="search" >
-                                        <div id="form_inline" class="form-group col-xs-18">
-                                            <label for="cerca_q" class="sr-only">Conteudo da Busca</label>
-                                            <input id="cerca_q" type="text" class="form-control" placeholder="Buscar" name="q">
-                                        </div>
-                                        <button id="search_btn" class="btn btn-default col-xs-5" type="submit">
-                                            <!--- class="glyphicon glyphicon-search" -->
-                                            <i> 
-                                                <img src="<?= $home ?>/img/lupa.png"/>
-                                            </i>
-                                        </button>
-                                    </form>
-                                </div>
-                                <!--fine ricerca--> 
-                                <!--lingue-->
-                                <div id="lingue">
-                                    <div class="row">
-                                        <!-- 
-                                        <ul><li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)">IT</a></li><li><a href="http://www.consfortaleza.org.br/pt/" title="Sito Portoguese (pt-PT)">PT</a></li></ul>
-                                        -->
-                                        <ul>
-                                            <li><a href="http://www.consfortaleza.org.br/it/" title="Sito Italiano (IT)"></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!--fine lingue--> 
-                            </div>
+        </nav>
 
 
-                            <div class="row"> 
-                                <!--social-->
-                                <div id="social" class="col-md-24 col-sm-19 col-xs-24">
-                                     <div class="social_follow"> 
-                                     </div>
-                                </div>
-                                <!--fine social-->  
-                            </div>
-                        </div>
-                    </div><!-- end row-->
 
-                    <div class="row">
-                        <div id="nav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">
-                            <div class="container-fluid"> 
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu">Menu 
-                                        <span class="sr-only"> Toggle navigation</span> 
-                                        <span class="glyphicon glyphicon-align-justify"></span> 
-                                    </button>
-                                </div>
-                                <div class="collapse navbar-collapse" id="main_menu">
-                                    
+
+                                        <?php
+                                         //wp_nav_menu(array(
+                                         //    'menu' => 'SubMenu',
+                                         //    'container' => 'nav', 
+                                         //    'menu_class' => 'collapse navbar-collapse'  
+                                         //    )); 
+                                         ?>
+
+
+
+
+
+
 
                                     <?php 
                                         //$args =array(
                                         //    'theme_location'=>'header-menus',
                                         //    'show_home'=>'Home',
                                         //    'menu_class'  => 'menu');
-                                        //$args = array(
-                                        //                'depth'       => 0,
-                                        //                'sort_column' => 'menu_order, post_title',
-                                        //                'menu_class'  => 'menu',
-                                        //                'include'     => '',
-                                        //                'exclude'     => '',
-                                        //                'echo'        => true,
-                                        //                'show_home'   => true,
-                                        //                'link_before' => '',
-                                        //                'link_after'  => '',
-                                        //                'page_item'  => 'nav'
-                                        //            );
-                                         //wp_page_menu($args);
-                                         //wp_nav_menu($args);
+                                        $args = array(
+                                                        'depth'       => 0,
+                                                        'sort_column' => 'menu_order, post_title',
+                                                        'menu_class'  => 'collapse',
+                                                        'container_class' => 'collapse navbar-collapse',
+                                                        'include'     => 'navbar',
+                                                        'exclude'     => 'navbar',
+                                                        'echo'        => true,
+                                                        'show_home'   => true,
+                                                        'link_before' => '',
+                                                        'link_after'  => '',
+                                                        'page_item'  => 'nav'
+                                                    );
+                                         wp_page_menu($args);
+                                         wp_nav_menu($args);
                                          //wp_nav_menu( array( 
                                          //    'theme_location' => 'header-menu',
                                          //    'container_class' => 'my_extra_menu_class',
-                                         //    'menu_class'=>'nav' ) );
-                                         wp_nav_menu(array(
-                                             'menu' => 'Home',
-                                             'container' => 'nav', 
-                                             'menu_class' => 'nav menu'
+                                         //    'menu_class'=>'navbar-collapse' ) );
+                                         //wp_nav_menu(array(
+                                         //    'menu' => 'Home',
+                                         //    'container' => 'nav', 
+                                         //    'menu_class' => 'nav menu'
                                              
-                                             )); 
+                                         //    )); 
                                              //'container_class' => 'class-da-nav'
                                     ?>
+        <!-- End Navigation -->
 
-                                   
-
+        <!-- Container -->
+        <div class="container">
+            <div class="bg-faded p-4  my-4 row ">
+                <div class="col-md-8">
+                    <!-- Image Carousel -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img class="d-block img-fluid w-100" src="<?= $home ?>/img/canoa-quebrada-2.jpg" alt="">
+                                    
                                 </div>
-                                <!-- fim menu header-->
-                            </div>
-                        </div>
-                    </div><!-- end row menu header-->
-
-                    <div class="row">  <!-- inicio sub menu-->
-                            <div id="submenunav" class="navbar navbar-default col-md-24 col-xs-24" role="navigation">
-                                <div class="container-fluid"> 
-
-
-                                
-                                    <div class="navbar-header">
-                                        <!-- inicio sub menu
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main_menu_tag">[ Importante ] &gt;&gt; 
-                                            <span class="sr-only"> Toggle navigation</span> 
-                                            <span class="glyphicon glyphicon-align-justify">
-                                            </span>
-                                         </button>
-                                        <div id="titolo_aree"><h5>[ Importante ] &gt;&gt;</h5>
-                                         </div>  -->                                 
-                                     </div>
-                                    <div class="collapse navbar-collapse" id="main_menu_tag">
-                                       
-                                       <?php
-                                         wp_nav_menu(array(
-                                             'menu' => 'SubMenu',
-                                             'container' => 'nav', 
-                                             'menu_class' => 'nav navbar-nav'  
-                                             )); 
-                                         ?>
-                                       
-                                       
-                                    </div>
+                                <div class="carousel-item">
+                                    <img class="d-block img-fluid w-100" src="<?= $home ?>/img/canoa-quebrada-ceara.jpg" alt="">
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block img-fluid w-100" src="<?= $home ?>/img/lagoa-paraiso.jpg" alt="">
+                                    
                                 </div>
                             </div>
-                        </div>  <!-- fim sub menu-->
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only text-primary">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only text-primary" >Next</span>
+                        </a>
+                    </div><!--Iamge Coursel -->
+                </div><!--end Col  -->
+                <!--Coll m4  -->
+                <div class="col-md-4">
+                      <h3 class="my-3 "><strong >Celular:</strong></h3>
+                      <ul>
+                          <li><strong>BR +55 85 99817-9002</strong></li>
+                      </ul>
+                      <h3 class="my-3"><strong>Telefone :</strong></h3>
+                      <ul>
+                        <li><strong>BR +55 85 3104-1171</strong></li>
+                        <li><strong>IT +39 02 4070-6898</strong></li>
+                      </ul>
+                      <h3 class="my-3"><strong>Email:</strong></h3>
+                      <ul>
+                        <li><a href="mailto:info@volicharter.org"><strong>info@volicharter.org</strong></a></li>
+                        <li><a href="mailto:info@volicharter.net"><strong>info@volicharter.net</strong></a></li>
+                      </ul>
+                </div><!--End Coll m4  --> 
+            </div><!--bg-faded  -->
+
+            <!-- -->
+            <div class="bg-faded p-4 my-4 row">
+                <hr class="divider">
+                <h2 class="text-center text-lg text-uppercase my-0">Tabela de 
+                <strong>Preço</strong>
+                </h2>
+                <hr class="divider">
+                <!-- 16:9 aspect ratio -->
+                <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" 
+                                src="http://docs.google.com/gview?url=http://www.volicharter.org/tabella/Tabella.pdf&amp;embedded=true" 
+                                style="width:100%; " >
+                        </iframe>     
+                </div>  
+            </div>
+
+            <!-- -->
+
+        </div><!--End container-->
