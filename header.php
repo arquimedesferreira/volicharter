@@ -59,6 +59,8 @@
 
         <!-- Custom styles for this template -->
         <link href="<?= $home ?>/css/business-casual.css" rel="stylesheet">
+        <link href="<?= $home ?>/css/style_menu.css" rel="stylesheet">
+        
 
     <?php wp_head();?>
 
@@ -76,83 +78,33 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
             <div class="container">
-                <a class="navbar-brand text-uppercase text-expanded text-primary font-weight-bold d-lg-none" 
-                href="#">Voli Charter</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                        data-target="#navbarResponsive" 
-                        aria-controls="navbarResponsive" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded " href="index.html"><strong>Home</strong> 
-                            <span class="sr-only">(current)</span>
-                        </a>
-                        </li>
-                        <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded " href="servicos.html"><strong>Serviços</strong> </a>
-                        </li>
-                        <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded " href="contato.html"><strong>Contact</strong></a>
-                        </li>
-                    </ul>
-                </div>
+                        <a class="navbar-brand text-uppercase text-expanded text-primary font-weight-bold d-lg-none" 
+                        href="#">Voli Charter</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                                data-target="#navbarResponsive" 
+                                aria-controls="navbarResponsive" 
+                                aria-expanded="false" 
+                                aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>   
+                <?php
+                $args = array(
+                    'depth'       => 0,
+                    'sort_column' => 'menu_order, post_title',
+                    'container_class' => 'collapse navbar-collapse text-uppercase text-expanded',
+                    'container_id' => 'navbarResponsive',
+                    'menu_class'  => 'navbar-nav mx-auto',
+                    'include'     => 'navbar',
+                    'exclude'     => 'navbar',
+                    'echo'        => true,
+                    'show_home'   => true,
+                    'link_before' => '',
+                    'link_after'  => '',
+                    'page_item'  => 'navbarResponsive'                                  
+                    );                                                        
+                wp_nav_menu($args);?>
             </div>
         </nav>
-
-
-
-
-                                        <?php
-                                         //wp_nav_menu(array(
-                                         //    'menu' => 'SubMenu',
-                                         //    'container' => 'nav', 
-                                         //    'menu_class' => 'collapse navbar-collapse'  
-                                         //    )); 
-                                         ?>
-
-
-
-
-
-
-
-                                    <?php 
-                                        //$args =array(
-                                        //    'theme_location'=>'header-menus',
-                                        //    'show_home'=>'Home',
-                                        //    'menu_class'  => 'menu');
-                                        $args = array(
-                                                        'depth'       => 0,
-                                                        'sort_column' => 'menu_order, post_title',
-                                                        'menu_class'  => 'collapse',
-                                                        'container_class' => 'collapse navbar-collapse',
-                                                        'include'     => 'navbar',
-                                                        'exclude'     => 'navbar',
-                                                        'echo'        => true,
-                                                        'show_home'   => true,
-                                                        'link_before' => '',
-                                                        'link_after'  => '',
-                                                        'page_item'  => 'nav'
-                                                    );
-                                         wp_page_menu($args);
-                                         wp_nav_menu($args);
-                                         //wp_nav_menu( array( 
-                                         //    'theme_location' => 'header-menu',
-                                         //    'container_class' => 'my_extra_menu_class',
-                                         //    'menu_class'=>'navbar-collapse' ) );
-                                         //wp_nav_menu(array(
-                                         //    'menu' => 'Home',
-                                         //    'container' => 'nav', 
-                                         //    'menu_class' => 'nav menu'
-                                             
-                                         //    )); 
-                                             //'container_class' => 'class-da-nav'
-                                    ?>
-        <!-- End Navigation -->
 
         <!-- Container -->
         <div class="container">

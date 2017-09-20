@@ -1,15 +1,8 @@
 <?php get_header();?>
 <?php $home_index = get_template_directory_uri();?>
-                    
-                </div> <!-- m -->
-            </div><!--fine container-->
 
-        <!--inizio footer-->
-            <?php get_footer();?>
-        <!--fine footer--> 
-
-       
-        <!--fine content info--> 
+        <?php get_footer();?>
+        
         
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -19,10 +12,6 @@
 
             ga('create', 'UA-2367121-4', 'auto');
             ga('send', 'pageview');
-
         </script>
-    
-
-
 </body>
 </html>
