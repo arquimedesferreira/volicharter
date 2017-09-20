@@ -1,6 +1,8 @@
 <?php get_header();?>
+<!--Antes da url base  -->
 <?php $home_index = get_template_directory_uri();?>
 
+    </div><!--End container-->
         <?php get_footer();?>
         
         

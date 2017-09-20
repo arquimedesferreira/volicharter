@@ -1,6 +1,6 @@
         
    <?php $home_footer = get_template_directory_uri();?>
-
+<!--no footer   -->
         <footer class="bg-faded text-center py-5">
             <div class="container">
               <p class="m-0">Copyright &copy; Arquitec 2017</p>
