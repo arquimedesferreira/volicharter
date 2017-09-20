@@ -12,6 +12,7 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner" role="listbox">
+
                                 <div class="carousel-item active">
                                     <img class="d-block img-fluid w-100" src="<?= $home ?>/img/canoa-quebrada-2.jpg" alt="">
                                     
@@ -21,9 +22,10 @@
                                     
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block img-fluid w-100" src="<?= $home ?>/img/lagoa-paraiso.jpg" alt="">
-                                    
+                                    <img class="d-block img-fluid w-100" src="<?= $home ?>/img/lagoa-paraiso.jpg" alt="">   
                                 </div>
+
+
                             </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -81,29 +83,27 @@
 
 	 
         
-		<?php 
-			if ( have_posts() ) {
-				while ( have_posts() ) {
-					the_post(); ?>
+           <!-- Começa o Loop. -->
+<?php
+        // The Query
+        $args = array(
+            'post_type'=> 'itens',
+            'actor'    => 'admin',
+            'order'    => 'ASC'
+        );
+        query_posts( $args );
 
-        <h1 itemprop="headline"><?php the_title();?></h1>
-        
-        
+// The Loop
+while ( have_posts() ) : the_post();
+   echo '<li>';
+   the_title();
+   echo '</li> Teste query ok';
+endwhile;
 
-        
-                    <img src="<?$page_diretorio?>img/anteprima_google.jpg" alt="La Sede">
-                    
-            
-				
-				
-                    <?php the_content();?>
-              
-           
-		<?php } // end while
-			} // end if?>
-			<!--page fim -->
+// Reset Query
+wp_reset_query();
 
 
+?>
 
-
-<?php// get_footer();?>
+<?php get_footer();?>

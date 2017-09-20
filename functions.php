@@ -56,7 +56,7 @@ function criar_post_carrocel(){
     $args= array(
         'labels'=>$labes,
         'public'=>true,
-        'description'=>'Apenas vários itens ',
+        'description'=>'Apenas vários itens',
         'menu_icon'=>'dashicons-image-filter',
         'supports'=>$suports,
          
