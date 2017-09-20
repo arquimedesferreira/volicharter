@@ -1,8 +1,10 @@
 <?php get_header();?>
 <!--page init -->
 <?php $page_diretorio = get_template_directory_uri();?>
-
+<?php if(is_page('home')){ ?>
+<div class="container">
 <div class="bg-faded p-4  my-4 row ">
+
                 <div class="col-md-8">
                     <!-- Image Carousel -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -71,13 +73,15 @@
                         </iframe>     
                 </div>  
             </div>
-
+<?php } ?>
 
 
 		
-					
-					
-					
+									
+<?php if(is_page('contato')){ ?>
+    <h1> Pagina Contato<h1>
+
+<?php } ?>					
 
 				
 

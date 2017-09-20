@@ -101,13 +101,17 @@
                     'link_before' => '',
                     'link_after'  => '',
                     'page_item'  => 'navbarResponsive'                                  
-                    );                                                        
-                wp_nav_menu($args);?>
+                    );          
+                //echo('<strong>');                                              
+                wp_nav_menu($args);
+                //echo('</strong>');
+                ?>
+                
             </div>
         </nav>
 
         <!-- Container -->
-        <div class="container">
+        
             
 
             <!-- continua no page-->
