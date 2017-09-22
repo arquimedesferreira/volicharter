@@ -8,28 +8,43 @@
                 <div class="col-md-8">
                     <!-- Image Carousel -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <?php    ?>
+                        
+                        <?php  
+                        $args = array('post_type'=>'Carrocel');
+                        // The Query
+                        $loop = new WP_Query( $args );
+
+                        // The Loop
+                        if ( $loop->have_posts() ) {
+                             ?>   
                             <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             </ol>
+                                   
+                             
                             <div class="carousel-inner" role="listbox">
-
-                                <div class="carousel-item active">
-                                    <img class="d-block img-fluid w-100" src="<?= $home ?>/img/canoa-quebrada-2.jpg" alt="">
-                                    
+                            <?php while ( $loop->have_posts() ) {
+                                $loop->the_post(); 
+                            ?>
+                                <div class="carousel-item ">
+                                <?php the_post_thumbnail('post-thumbnail', ['class' => 'd-block img-fluid w-100']); ?>
+                     
                                 </div>
-                                <div class="carousel-item">
-                                    <img class="d-block img-fluid w-100" src="<?= $home ?>/img/canoa-quebrada-ceara.jpg" alt="">
-                                    
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block img-fluid w-100" src="<?= $home ?>/img/lagoa-paraiso.jpg" alt="">   
-                                </div>
+                            <?php
+                            
+                            }            
+                            echo('</div>');           
+                            /* Restore original Post Data */
+                            wp_reset_postdata();
+                        } else {
+                            // no posts found
+                        }                     
+                        ?>
 
-
-                            </div>
+                        <div class="carousel-item active">
+                        </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only text-primary">Previous</span>
