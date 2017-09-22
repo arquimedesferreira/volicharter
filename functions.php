@@ -7,12 +7,12 @@ add_theme_support('menus');
 function mostrar_post_item(){
 
     $labes=array(
-    'name'=>'Itens',
-    'name_singular'=>'Item',
-    'add_new_item'=> 'Registrar Item',
-    'add_item'=>' Editar Item',
-    'edit_item'=>'Editar Item',
-    'new_item'=> 'Novo Item'
+    'name'=>'Parceiros',
+    'name_singular'=>'Parceiro',
+    'add_new_item'=> 'Registrar Parceiro',
+    'add_item'=>' Editar Parceiro',
+    'edit_item'=>'Editar Parceiro',
+    'new_item'=> 'Novo Parceiro'
    
     );
     // Define o que vai ter no tela do novo tipo de post 
@@ -32,7 +32,7 @@ function mostrar_post_item(){
          
     );
 
-    register_post_type('item',$args);
+    register_post_type('parceiros',$args);
 }
 
 
@@ -99,7 +99,7 @@ function registra_tax_categoria(){
         'hierarchical'=>true
     );
     
-    register_taxonomy('categoria','item',$args);
+    register_taxonomy('categoria','parceiros',$args);
 
 }
 add_action('init','registra_tax_categoria');

@@ -84,14 +84,17 @@
                 <!-- 16:9 aspect ratio -->
                 <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" 
-                                src="http://docs.google.com/gview?url=http://www.volicharter.org/tabella/Tabella.pdf&amp;embedded=true" 
+                                src="http://docs.google.com/gview?url=<?php $home_index ?>/tabella/Tabella.pdf&amp;embedded=true" 
                                 style="width:100%; " >
                         </iframe>     
                 </div>  
             </div>
 </div><!--End container-->
 
-        <?php get_footer();?>    
+
+        <?php 
+        echo($home_index);
+        get_footer();?>    
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

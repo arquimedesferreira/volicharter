@@ -27,7 +27,7 @@ if(is_page('home')){ ?>
         <hr class="divider">
         <div class="row">
           <div class="col-lg-6">
-            <img class="img-fluid mb-4 mb-lg-0" src="img/slide-2.jpg" alt="">
+            <img class="img-fluid mb-4 mb-lg-0" src="<?= $home ?>/img/slide-2.jpg" alt="">
           </div>
           <div class="col-lg-6">
             <p>Trabalhamos com empresas que disponibilizam serviços de qualidade e comodidade.</p>
@@ -37,43 +37,42 @@ if(is_page('home')){ ?>
 
       <div class="bg-faded p-4 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">Parceiros
-          
-        </h2>
+        <h2 class="text-center text-lg text-uppercase my-0">Parceiros</h2>
         <hr class="divider">
+
         <div class="row">
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Parceiro 
-                  <small class="text-muted">Um </small>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Parceiro
-                  <small class="text-muted">Dois</small>
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card h-100">
-              <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Parceiro
-                  <small class="text-muted">Três</small>
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
+        <?php     $args = array('post_type'=>'parceiros');
+                        // The Query
+                        $loop = new WP_Query( $args );
+
+                        // The Loop
+                        if ( $loop->have_posts() ) {
+                             ?>   
+
+                            <div class="col-md-4 mb-4 mb-md-0">
+                            <div class="card h-100">
+                            <?php while ( $loop->have_posts() ) {
+                                $loop->the_post(); 
+                            ?>
+                               
+                                <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top']); ?>
+                                <div class="card-body text-center">
+                                    <h4 class="card-title m-0">Parceiro 
+                                    <small class="text-muted">Um </small>
+                                    </h4>
+                                </div>
+                            <?php                           
+                            }            
+                            echo('</div>
+                               </div> ');           
+                            /* Restore original Post Data */
+                            wp_reset_postdata();
+                        } else {
+                            // no posts found
+                        }                     
+                        ?>           
 
     </div>
     <!-- /.container -->
