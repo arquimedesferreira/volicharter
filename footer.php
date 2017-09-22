@@ -10,4 +10,4 @@
         <script src="<?= $home_footer ?>/vendor/popper/popper.min.js"></script>
         <script src="<?= $home_footer ?>/vendor/bootstrap/js/bootstrap.min.js"></script>
         
-        <?php wp_footer();?>
+<?php wp_footer();?>
