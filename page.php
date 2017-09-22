@@ -51,22 +51,23 @@ if(is_page('home')){ ?>
                         if ( $loop->have_posts() ) {
                              ?>   
 
-                            <div class="col-md-4 mb-4 mb-md-0">
-                            <div class="card h-100">
+                            
                             <?php while ( $loop->have_posts() ) {
                                 $loop->the_post(); 
                             ?>
-                               
-                                <?php the_post_thumbnail('post-thumbnail', ['class' => 'card-img-top']); ?>
-                                <div class="card-body text-center">
-                                    <h4 class="card-title m-0">Parceiro 
-                                    <small class="text-muted">Um </small>
-                                    </h4>
+                            <div class="col-md-4 mb-4 mb-4">
+                                <div class="card h-100">
+                                  <?php the_post_thumbnail('thumbnail',['class' => 'card-img-top', 'title' => 'Feature image']); ?>
+                                  <div class="card-body text-center">
+                                      <h4 class="card-title m-0"><?php the_title();?>
+                                      <small class="text-muted">  </small>
+                                      </h4>
+                                  </div>
                                 </div>
+                            </div>
                             <?php                           
                             }            
-                            echo('</div>
-                               </div> ');           
+                                     
                             /* Restore original Post Data */
                             wp_reset_postdata();
                         } else {
