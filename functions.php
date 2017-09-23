@@ -3,6 +3,36 @@
 add_theme_support( 'post-thumbnails' );
 add_theme_support('menus');
 
+function mostrar_post_planilha(){
+    
+        $labes=array(
+        'name'=>'Planilha',
+        'name_singular'=>'Planilha',
+        'add_new_item'=> 'Registrar Planilha',
+        'add_item'=>' Editar Planilha',
+        'edit_item'=>'Editar Planilha',
+        'new_item'=> 'Nova Planilha'
+       
+        );
+        // Define o que vai ter no tela do novo tipo de post 
+        $suports= array(
+            'title',
+            'editor',
+            'thumbnail',
+            'page-attributes'
+        );
+    
+        $args= array(
+            'labels'=>$labes,
+            'public'=>true,
+            'description'=>'Apenas uma Planilha ',
+            'menu_icon'=>'dashicons-image-filter',
+            'supports'=>$suports,
+             
+        );
+    
+        register_post_type('planilha',$args);
+    }
 
 function mostrar_post_item(){
 
@@ -66,6 +96,9 @@ function criar_post_carrocel(){
 }
 
 
+
+//Define os Init
+add_action('init', 'mostrar_post_planilha');
 add_action('init', 'mostrar_post_item');
 add_action('init', 'criar_post_carrocel');
 

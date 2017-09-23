@@ -4,16 +4,13 @@
     
 <div class="container">
 <div class="bg-faded p-4  my-4 row ">
-
                 <div class="col-md-8">
                     <!-- Image Carousel -->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">      
                         <?php  
                         $args = array('post_type'=>'Carrocel');
                         // The Query
                         $loop = new WP_Query( $args );
-
                         // The Loop
                         if ( $loop->have_posts() ) {
                              ?>   
@@ -22,8 +19,7 @@
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             </ol>
-                                   
-                             
+                                                              
                             <div class="carousel-inner" role="listbox">
                             <?php while ( $loop->have_posts() ) {
                                 $loop->the_post(); 
@@ -59,7 +55,9 @@
                 <div class="col-md-4">
                       <h3 class="my-3 "><strong >Celular:</strong></h3>
                       <ul>
-                          <li><strong>BR +55 85 99817-9002</strong></li>
+                          <li><strong>BR +55 85 99817-9002</strong> <img class="img-responsive" src="http://localhost/coffe/img/whatsapp.48_48.svg" alt=""></li>
+                          
+                          <li><strong>BR +55 85 98782-6127</strong> <img class="img-responsive" src="http://localhost/coffe/img/whatsapp.48_48.svg" alt=""></li>
                       </ul>
                       <h3 class="my-3"><strong>Telefone :</strong></h3>
                       <ul>
@@ -82,12 +80,25 @@
                 </h2>
                 <hr class="divider">
                 <!-- 16:9 aspect ratio -->
-                <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" 
-                                src="http://docs.google.com/gview?url=<?php $home_index ?>/tabella/Tabella.pdf&amp;embedded=true" 
-                                style="width:100%; " >
-                        </iframe>     
-                </div>  
+                <div class="embed-responsive">
+                        <?php  
+                        $args = array('post_type'=>'planilha');
+                        $loop = new WP_Query( $args );
+                        if ( $loop->have_posts() ) {
+                            while ( $loop->have_posts() ) {
+                                $loop->the_post();
+
+                                the_post_thumbnail( 'large',['class' => 'd-block img-fluid w-100']);
+
+                            }
+                                wp_reset_postdata();
+                            } else {
+                                // no posts found
+                            } 
+
+                        
+                        ?>
+                </div>
             </div>
 </div><!--End container-->
 
