@@ -27,8 +27,10 @@ if(is_page('home')){ ?>
         <hr class="divider">
         <div class="row">
             <!-- -->
-            <img class="img-fluid mb-4 mb-lg-0" src="http://localhost/coffe/img/slide-2.jpg" alt="">
-          </div>
+            <div class="col-lg-6">
+              <img class="img-fluid mb-4 mb-lg-0" src="http://www.volicharter.org/coffe/img/slide-2.jpg" alt="">
+            </div>
+          
           <div class="col-lg-6">
             <p>Trabalhamos com empresas que disponibilizam serviços de qualidade e comodidade.</p>
           </div>
@@ -94,13 +96,14 @@ if(is_page('home')){ ?>
               <a href="https://www.google.com.br/maps/place/Condom%C3%ADnio+Beira+Mar+Trade+Center/@-3.7257634,-38.4992523,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x93066e115a853a97!8m2!3d-3.7257627!4d-38.4970634" 
                  alt="Clique no mapa">
                  <img class="img-fluid mb-4 mb-lg-0" 
-                  src="http://localhost/coffe/img/localizacao.png" 
+                  src="http://www.volicharter.org/coffe/img/localizacao.png" 
                   title="Localização de VoliCharter" alt="Localização de VoliCharter">
             </a>
             
           </div>
           <div class="col-lg-4 ">
             <h5 class="mb-0"><strong>Telefone:</strong></h5>
+            <div class="mb-4"> </div>
             <div class="mb-4"><strong>BR +55 85 3104-1171</strong></div>
             <div class="mb-4"><strong>BR +55 85 99817-9002</strong></div>
             <div class="mb-4"><strong>IT +39 02 4070-6898</strong></div>

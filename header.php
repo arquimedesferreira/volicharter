@@ -34,9 +34,17 @@
          <!-- Add Boostrat Coffe-->
          <link href="<?= $home ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
          <link href="<?= $home ?>/css/reset.css" rel="stylesheet">
-         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-         <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+         
+         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" 
+         rel="stylesheet" type="text/css">
+         <link href="https://fonts.googleapis.com/css?family=Design+System:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" 
+         rel="stylesheet" type="text/css">
+         
+        <!-- 
 
+            <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" 
+         rel="stylesheet" type="text/css">
+        -->
         <!-- Custom styles for this template -->
         <link href="<?= $home ?>/css/business-casual.css" rel="stylesheet">
         <link href="<?= $home ?>/css/style_menu.css" rel="stylesheet">
@@ -59,7 +67,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
             <div class="container">
                         <a class="navbar-brand text-uppercase text-expanded text-primary font-weight-bold d-lg-none" 
-                        href="#">Voli Charter</a>
+                        href="#"><img src="<?= $home ?>/img/desenhando_48_48.png" > </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" 
                                 data-target="#navbarResponsive" 
                                 aria-controls="navbarResponsive" 

@@ -53,22 +53,29 @@
                 </div><!--end Col  -->
                 <!--Coll m4  -->
                 <div class="col-md-4">
-                      <h3 class="my-3 "><strong >Celular:</strong></h3>
-                      <ul>
-                          <li><strong>BR +55 85 99817-9002</strong> <img class="img-responsive" src="http://localhost/coffe/img/whatsapp.48_48.svg" alt=""></li>
-                          
-                          <li><strong>BR +55 85 98782-6127</strong> <img class="img-responsive" src="http://localhost/coffe/img/whatsapp.48_48.svg" alt=""></li>
-                      </ul>
-                      <h3 class="my-3"><strong>Telefone :</strong></h3>
-                      <ul>
-                        <li><strong>BR +55 85 3104-1171</strong></li>
-                        <li><strong>IT +39 02 4070-6898</strong></li>
-                      </ul>
-                      <h3 class="my-3"><strong>Email:</strong></h3>
-                      <ul>
-                        <li><a href="mailto:info@volicharter.org"><strong>info@volicharter.org</strong></a></li>
-                        <li><a href="mailto:info@volicharter.net"><strong>info@volicharter.net</strong></a></li>
-                      </ul>
+                        <h5 class="mb-0 "><strong>Celular:</strong></h5>
+                        <div class="mb-4"> </div>
+                        <div class="mb-4"><strong>BR +55 85 99817-9002</strong>     <img class="img-responsive" src="http://www.volicharter.org/coffe/img/whatsapp.48_48.svg" alt=""></div>
+                        <div class="mb-4"><strong>BR +55 85 98782-6127</strong>     <img class="img-responsive" src="http://www.volicharter.org/coffe/img/whatsapp.48_48.svg" alt=""></div>
+                        <h5 class="mb-0 "><strong>Telefone:</strong></h5>
+                        <div class="mb-4"> </div>
+                        <div class="mb-4"><strong>BR +55 85 3104-1171</strong></div>
+                        <div class="mb-4"><strong>IT +39 02 4070-6898</strong></div>
+                        <div class="mb-4"><strong>IT +39 02 4070-6898</strong></div>
+
+                        <h5 class="mb-0 " ><strong>Email:</strong></h5>
+                        <div class="mb-4">
+                        <a href="mailto:info@volicharter.org"><strong>info@volicharter.org</strong></a> <br>
+                        <a href="mailto:info@volicharter.net"><strong>info@volicharter.net</strong></a>              
+                        </div>
+
+                        <h5 class="mb-0 "><strong>Formas de Pagamento:</strong></h5>
+                        <div class="mb-4">
+                            <strong>A Partir de 04 de Outubro.</strong><br>
+                            <strong>Em até 3x sem juros.</strong><br>
+                        <br>
+                        
+                        </div>
                 </div><!--End Coll m4  --> 
             </div><!--bg-faded  -->
 
