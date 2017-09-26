@@ -1,19 +1,16 @@
 <?php get_header();?>
-<!--page init -->
+<!--page page -->
 <?php $page_diretorio = get_template_directory_uri();?>
 
-<?php 
-//;
-if(is_page('home')){ ?>
-
-<?php } ?>
 
 
+<!--End Testabo page -->
 		
 					
 
 				
 <?php if(is_page('parceiros')){ ?>
+<!--End Testando servico-->
       <!--Pagina de Servico-->
       <div class="container">
 
