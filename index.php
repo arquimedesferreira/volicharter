@@ -72,7 +72,7 @@
                         <h5 class="mb-0 "><strong>Formas de Pagamento:</strong></h5>
                         <div class="mb-4">
                             <strong>A Partir de 04 de Outubro.</strong><br>
-                            <strong>Em até 3x sem juros.</strong><br>
+                            <strong>Todos os voos, em até 4x sem juros.</strong><br>
                         <br>
                         
                         </div>

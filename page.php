@@ -13,7 +13,7 @@ if(is_page('home')){ ?>
 					
 
 				
-<?php if(is_page('servicos')){ ?>
+<?php if(is_page('parceiros')){ ?>
       <!--Pagina de Servico-->
       <div class="container">
 
@@ -59,7 +59,7 @@ if(is_page('home')){ ?>
                             ?>
                             <div class="col-md-4 mb-4 mb-4">
                                 <div class="card h-100">
-                                  <?php the_post_thumbnail('thumbnail',['class' => 'card-img-top', 'title' => 'Feature image']); ?>
+                                  <?php the_post_thumbnail(); ?>
                                   <div class="card-body text-center">
                                       <h4 class="card-title m-0"><?php the_title();?>
                                       <small class="text-muted">  </small>
@@ -82,7 +82,7 @@ if(is_page('home')){ ?>
 
 <?php } //End servicos?>
                                                            
-<?php if(is_page('contato')){ ?>
+<?php if(is_page('contatos')){ ?>
      <!--Pagina de Contato-->
          
      <div class="container">
